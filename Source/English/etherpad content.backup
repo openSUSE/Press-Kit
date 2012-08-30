@@ -1,0 +1,95 @@
+This document has:
+- draft of the 12.2 release announcement (mail version is direct copy, the one for news.o.o is slightly reworded to be less corporaty and has pictures and links)
+- 3x3 feature list (3 most important areas with each ~3 most important improvements)
+- What to say (in interviews) and write (in review guide) about the delay and our progress in discussing improvements to our processes since
+Announcement ======================================
+openSUSE Project Updates Worlds' Most Powerful and Flexible Linux Operating System
+Latest openSUSE 12.2 provides a modern and reliable platform, bringing improved performance and a polished user experience on top of an evolved infrastructure.
+THE INTERNET, September 5, 2012 -- The openSUSE Project, a global opensource community, announced today the general availability of openSUSE 12.2. With this release openSUSE delivers  a stable, complete and easy to use multi-purpose operating system allowing users and developers to leverage free and open source software in physical, virtual and cloud environments
+“openSUSE 12.2 is the great result of 10 months of global collaboration on open source technology," said Jos Poortvliet, openSUSE Community manager for SUSE. "The community has again delivered an important update for this long-established Linux Distribution, finding that unique spot between dependable yet not outdated."
+openSUSE 12.2 brings improved performance with the latest kernel and system libraries as well as adoptation of mature new distribution technologies and polish to existing features. A few of the most notable changes include:
+Performance enhancements
+Build for speed, openSUSE comes with new technologies designed to speed up typical usecases. The 3.4 release of Linux introduces a faster storage layer preventing blocking of the system during large data transfers. glibc 2.5.1, a core system library, brings optimizations in many areas, especially on 64 bit systems. openSUSE takes advantage of the capabilities of systemd 44 to improve boot speed and this release ships the latest 4.8.1 release of Qt, making the desktop more fluid and responsive.
+Evolution of infrastructure
+openSUSE adopts the latest developments in Linux distribution technology as they mature. The GRUB2 bootloader is now the default with support for newer hardware, Plymouth brings flicker-free transitions during bootup and more attractive animations and openSUSE has made some evolutionary steps in revising and simplifying the UNIX filesystem hierarchy, having started the relocation of binaries to /usr/bin in an incremental way.
+Polished features
+openSUSE brings incremental improvements to existing functionality, improving the user experience all across. The novel BTRFS filesystem comes with improved error handling and recovery tools, GNOME 3.4 brings smooth scrolling to all applications and features a reworked System Settings and Contacts manager while XFCE has a much better application finder.
+OpenSUSE 12.2 also includes an option to enable Tumbleweed, a version of openSUSE with rolling updates that contain the latest stable versions of all software. The project was conceived by  Greg Kroah-Hartman, a SUSE kernel engineer. Tumbleweed lessens the significance and change impact of major releases by updating systems continuously.
+"We are proud of a release up to the usual openSUSE quality standards." Said Bryen Yunashko from the openSUSE Board. "The delay in the schedule caused by our growth in the last years means we have to work on scaling our processes. Now this release is out and with the upcoming openSUSE conference in October in Prague, the community has time and opportunity to work on that."
+For more details about the latest innovations in openSUSE 12.2 visit
+opensuse.org/12.2 
+Downloads can be found at software.opensuse.org/122
+​ 
+### 
+​ 
+About openSUSE 
+The openSUSE project is a worldwide effort that promotes the use of Linux everywhere. openSUSE creates one of the world's best Linux distributions, working together in an open, transparent and friendly manner as part of the worldwide Free and Open Source Software community. For more information, visit www.opensuse.org. 
+​ 
+About SUSE 
+SUSE is a leading provider of enterprise Linux solutions that increase agility, reduce cost and manage complexity in dynamic environments. With a portfolio centered on SUSE Linux Enterprise, the most interoperable platform for mission-critical computing, SUSE enables organizations to confidently deliver computing services across physical, virtual and cloud environments. With our award-winning products and ecosystem of partnerships, SUSE solutions empower thousands of organizations around the world.
+For more information, visit www.suse.com. 
+​ 
+Press Contacts 
+​ 
+Christopher Haufman  
+openSUSE Team, SUSE 
+[hidden email]
+​ 
+Amie Johnson 
+PR Manager, SUSE 
+[hidden email]
+End of announcement ===================================================
+3x3x3: a handy tool to talk about openSUSE. Will be used in Reviewers Guide and when talking to press.
+Performance enhancements
+From the kernel to the desktop, openSUSE 12.2 brings you speed-ups: 
+
+    Linux 3.4 has a faster storage layer to prevent blocking during large transfers. 
+
+    glibc 2.5.1, the basic library, improves the performance of many functions, especially on 64 bit systems. 
+
+    Systemd 44 enables a faster system boot.
+
+    KDE 4.8.4 builds on Qt 4.8.1 to make the desktop more fluid and responsive.
+
+Evolution of infrastructure
+openSUSE adopts the latest developments in Linux distribution technology as they mature:
+
+    The GRUB2 bootloader is now the default with support for upcoming hardware.
+
+    Revising and simplifying the UNIX filesystem hierarchy, binaries are now being located under /usr/bin.
+
+    During boot and shutdown Plymouth 0.8.6.1 provides flicker-free transitions and attractive animations.
+
+Polished features
+openSUSE polishes existing features, improving integration and giving a better user experience:
+
+    The novel btrfs filesystem now comes with error handling, better openSUSE integration and recovery tools
+
+    GNOME 3.4 introduces smooth scrolling in all applications, a reworked System Settings app and polished Contacts manager. 
+
+     XFCE 4.10 has an improved application finder and allows vertical panels. The Dolphin file manager is both prettier and faster.
+
+What to say (interviews) and write (in review guide etc) about the delay and our progress in discussing improvements to our processes since
+Release process
+As you might be aware, on the 14th of June the openSUSE project announced a delay of the release [1].  The Open Build Service has become a great enabler of wide-ranging community development, making openSUSE stand out among the major Linux distributions. However, our distribution integration processes have not scaled with it. This, combined with some technically ambitious changes and release infrastructure developments in the release meant that the project had to delay the release to deliver the quality users have come to expect in openSUSE 12.2.
+Since then the community has discussed how to adopt our development and release process to the new reality, building on our strengths. These have already lead to unique projects like our rolling release Tumbleweed and it is where much of our current efforts and deliberations are going.
+(insert what we tell the press about progress since then for the 12.2 release from Agustin)
+(needs rewording. These are the ideas........
+Points to talk about:
+
+    SUSE have given a wider scope to the former Boosters team, concentrating all the efforts under a coordinated unit. This will improved the impact of the support SUSE provide to the community. The transition process will end up at the end of this 2012.
+
+    Within this openSUSE Team at SUSE (we need a new name) a Subteam has been created to reinforce the Release process (Release Team).
+
+    The last phase of the Release process has been partially redesigned and documented (draft), in order to make deeper changes for the following release.(This is too much detail for the press)
+
+    The above changes plus further internal reorganization at openSUSE Team at SUSE, together with the great contribution from the community, is allowing openSUSE to concentrate the three major events in the year for the project (12.2 Release, openSUSE Summit and openSUSE Conference) in just two months and still delivering with quality..
+
+    The thing I personally don't  like about the above is that it is basically  saying that the openSUSE  Team runs openSUSE and that's where it had to  change. While technically  not incorrect, it's something we're trying to  get away from... Also,  many in the community won't like the message. (on  the other hand, it  might make sense to become a bit more open about how  things work in  openSUSE - the fact that much of the core stuff is done  by SUSE  employees could be a bit more public. But that's a CHANGE  compared to  how we communicate now and shouldn't be made lightly)
+
+    12.2 Release opens an analysis period in which the some key parts of Release process, along with the release schedule will be redefined. (Again not relevant to 12.2 release, we can talk about this in the press after).  Further improvements will be introduced to simplify it and lowering the barrier for contributors to add innovations
+
+    Final paragraphs with a positive messege: we have many contributors, we deliver software that works under many different circunstances, devices, usercases.... openSUSE is a complex integration project  in which a lot of people participates. We will be here supporting our users and community for a long time.
+
+[1] http://news.opensuse.org/2012/06/14/where-is-my-12-2-my-kingdom-for-a-12-2/
+ 
