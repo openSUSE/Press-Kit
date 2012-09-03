@@ -2,7 +2,7 @@ Source export-ignore
 README export-ignore
 .gitattributes export-ignore
 English/* export-ignore
-English/Press_Announcement_AGJ.pdf -export-ignore
+English/Press_Announcement.pdf -export-ignore
 English/Images -export-ignore
 English/Images/*/*.png -export-ignore
 English/Product?Highlights.pdf -export-ignore
