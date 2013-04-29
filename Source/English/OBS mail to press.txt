@@ -1,0 +1,62 @@
+EMBARGO: Open Build Service 2.4 pre-announcement press kit
+Dear Mr X,
+
+I'm happy to present you a preview of our upcoming Open Build Service 2.4 announcement. As a reminder, the Open Build Service is the biggest Build Server project in the world, with over 200K packages build on it on the reference instance alone and many other projects and distributions using it.
+
+The OBS team has been working like crazy for over a year on this version update and the release brings incredibly significant features. We will publish the announcement on Tuesday the 30rd of April at 12:00 UTC on the openbuildservice.org website and link to it from news.opensuse.org. I would kindly ask you to keep it quiet until then!
+
+In the presskit linked below I have for you:
+- the press announcement
+- the release announcement from openbuildservice.org
+- a number of screenshots demonstrating some of the features of OBS 2.4
+Get it here:
+https://dl.dropboxusercontent.com/u/29347181/presskit.tar.bz2
+
+The announcement has a quote by Stephan Kulow but below I will let some of the other team members speak for themselves about the significance of this release. This is not published anywhere, you are free to use the quotes how you like and of course ask follow-up by mail or phone!
+
+Henne Vogelsang:
+As you can see, OBS 2.4 includes so many improvements in so many corners of the project that we in the team keep on joking about how indignant with the previous versions we are. The OBS team is very proud of this release.
+
+My own favorite feature is the beginning move to separate the individual parts of the OBS more cleanly. Lot's of stuff has been moved around from the UI into the API, the backend to the API, vice versa and so on and so on. We are heading into a direction of an architecture which makes even more sense than it does right now. And that we can achieve that with the current code base and personnel is a sign of a very healthy project IMHO.
+
+Sascha Peilicke:
+I see much positive development in all the processes behind OBS and openSUSE. About OBS the software, the best thing for me is that the 2.4 dev cycle was rather unsurprising. Much less outages and regressions, the increased test coverage clearly paid off. The source services improved, tar_scm can generate version numbers fully automated from git (by using the last 'release' git tag). There are some new services, like github_tarballs.
+
+Adrian Schröter:
+It is an evolving release. It has its biggest impacts on larger OBS instances and instances which use emulators for cross-building for foreign architectures.
+
+The statistics allow us to to analyze the used resources, and they allow us to setup build workers more efficiently for the individual jobs. This enables us to have many small machines building plenty of small jobs only in RAM and also very big hosts which just process one large kernel package for example. We will also collect the changes of used resources over the time to get a better picture of needed resources.
+
+Also the new arm 64 architecture is supported for the first time.
+
+Michael Schröder:
+The non-blocking interconnect was requested by many companies that have their own build service instance running and connect to the reference server, build.opensuse.org. These interconnecting build services will now continue to work even when the reference server is not available for whatever reason.
+
+Stephan Kulow:
+For me OBS 2.4 is all about finally getting all these cleanups out that were done under the hood. Improving test coverage, adding a whole new webui test suite from GSoC, porting to Rails 3, fixing the requests data model, porting our custom javascript/css to asset pipelines, getting CodeMirror 3 in with improved toolbars and all that speedup work for the webui that was done by moving huge parts into the API. And of course the pre-install images helped a bit while we were low in build power.
+
+===================
+You can find the whole team at http://openbuildservice.org/team
+
+If you are interested in speaking to any of the team members, just let me know and I will arrange something.
+
+*Some extra background on the Open Build Service and the new features*
+
+About Arch Linux support:
+http://openbuildservice.org/2012/09/10/arch-linux-support/
+
+Latest three announcements about the reference server at build.opensuse.org:
+* IBM sponsors new POWER hardware for OBS: http://news.opensuse.org/?p=15819
+* ARM 32 and 64 bit and new ARM build hardware from SAMSUNG: http://news.opensuse.org/?p=15779
+* New x86 server rack sponsored by SUSE: http://news.opensuse.org/?p=15739
+
+Appstream support in action:
+http://software.opensuse.org/appstore
+
+If you have any questions or would like more information, please do not hesitate to contact me.
+
+I do have one other thing: I'd like to confirm that you are OK with being on a list of people I contact before important releases! I realize I did not discuss this yet with you. We sometimes contact people directly, or use a mailing list specifically for this purpose. Of course, the number of messages we send is very low and the quality is high as I hope you agree.
+
+Greetings,
+Jos Poortvliet
+openSUSE Community Manager
